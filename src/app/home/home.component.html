@@ -1,0 +1,31 @@
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="" alt="" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#interest">Interests</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Intern</p>
+                <h1>Hi, I'm <span>Akansh Dhyani</span> </h1>
+            </div>
+        </div>
+    </div>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+          sidemeu.style.right = "0";
+        }
+        function closemenu() {
+          sidemeu.style.right = "-200px";
+        }
+      </script>
+    
